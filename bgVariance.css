@@ -1,0 +1,21 @@
+/*64-224-208*/
+body{
+    background: linear-gradient(0deg, rgba(25, 0, 255, 0.671),#0051ff, #00fff2);
+}
+h2 {
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    font-weight: 600;
+    /*background-color: hsl(rgb(64, 68, 234), 65%, 35%);*/
+}
+p {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    /*background-color: hsl(rgb(64, 68, 234), 34%, 25%);*/
+    padding: 10px;
+    line-height: 25px;
+}
