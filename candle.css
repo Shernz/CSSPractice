@@ -1,0 +1,27 @@
+.base{
+    width: 50px;
+    height: 300px;
+    position: fixed;
+    top : 45%;
+    bottom : 25%;
+    /* right: 0;*/
+    left: 50%; 
+    background: linear-gradient(0deg, mediumvioletred, pink, mediumvioletred);/*not background color!!!
+    /* background-color: black; */
+}
+
+#fire{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    bottom: 45%;
+    height: 80px;
+    width: 50px;
+    border-radius: 50%;
+    /* background: linear-gradient(0deg, red , orange, yellow); */
+    background-color: white;
+}
+
+#fire:hover{
+    background: linear-gradient(0deg, red , orange, yellow);
+}

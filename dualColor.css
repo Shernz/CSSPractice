@@ -1,0 +1,71 @@
+.container{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+}
+.l{
+    left: 0;
+    background-color: white;
+    color: mediumvioletred;
+}
+
+.r{
+    right: 0;
+    background-color: mediumvioletred;    
+    color: white;
+}
+
+.text{
+    position: absolute;
+    top: 25%;
+    /* left: 100%; 
+    right: 100%; */
+    bottom: 40%;
+    font-size: 50px;
+    font-weight: 700;
+    /* color: black; */
+    font-family: sans-serif;
+    /* z-index: 1; */
+}
+
+.tl{
+    position: absolute;
+    right: 10;
+}
+
+.tr{
+    position: absolute;
+    left: 10;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+}
+
+#semiL{
+    right: 0;
+    background-color: mediumvioletred;
+}
+
+#semiR{
+    left: 0;
+    background-color: white;
+}
+
+#downR{
+    top: 66%;
+    left: 0;
+    background-color: white;
+}
+
+#downL{
+    top: 66%;
+    right: 0;
+    background-color: mediumvioletred;
+}
